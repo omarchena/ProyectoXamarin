@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProyectoCenfotec.Models;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -14,7 +15,7 @@ namespace ProyectoCenfotec
     public partial class DetallesTapPage : TabbedPage
     {
         public ObservableCollection<object> ItemsRelacionados { get; set; } = new ObservableCollection<object>();
-
+  
         public DetallesTapPage (WikiaItem item)
         {
             InitializeComponent();
@@ -28,7 +29,17 @@ namespace ProyectoCenfotec
 
             IsBusy = true;
             //Items.Clear();
-            var data = await wikiaService.GetDetailsUser(wikiaItem.domain);
+            var data = await wikiaService.GetDetailsUser(wikiaItem.founding_user_id);
+            if(data != null)
+            {
+                WikiUsuarios.UserElement userElement = new WikiUsuarios.UserElement();
+                userElement = data.items.FirstOrDefault();
+                user_id.Text = userElement.user_id.ToString();
+                name.Text = userElement.name;
+                url.Text = userElement.url;
+                Uri myUri = new Uri(userElement.avatar);
+                Imagen.Source = FileImageSource.FromUri(myUri);
+            }
 
             IsBusy = false;
         }

@@ -823,11 +823,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\ProyectoCenfotec\\GitHub\\ProyectoCenfo\\ProyectoCenfotec\\ProyectoCenfotec.Android\\ProyectoCenfotec.Android.csproj",
+      "projectUniqueName": "C:\\GitHub\\ProyectoCenfo\\ProyectoCenfotec\\ProyectoCenfotec.Android\\ProyectoCenfotec.Android.csproj",
       "projectName": "ProyectoCenfotec.Android",
-      "projectPath": "C:\\Users\\Usuario\\source\\repos\\ProyectoCenfotec\\GitHub\\ProyectoCenfo\\ProyectoCenfotec\\ProyectoCenfotec.Android\\ProyectoCenfotec.Android.csproj",
+      "projectPath": "C:\\GitHub\\ProyectoCenfo\\ProyectoCenfotec\\ProyectoCenfotec.Android\\ProyectoCenfotec.Android.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\source\\repos\\ProyectoCenfotec\\GitHub\\ProyectoCenfo\\ProyectoCenfotec\\ProyectoCenfotec.Android\\obj\\",
+      "outputPath": "C:\\GitHub\\ProyectoCenfo\\ProyectoCenfotec\\ProyectoCenfotec.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -844,8 +844,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\Usuario\\source\\repos\\ProyectoCenfotec\\GitHub\\ProyectoCenfo\\ProyectoCenfotec\\ProyectoCenfotec\\ProyectoCenfotec.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\source\\repos\\ProyectoCenfotec\\GitHub\\ProyectoCenfo\\ProyectoCenfotec\\ProyectoCenfotec\\ProyectoCenfotec.csproj"
+            "C:\\GitHub\\ProyectoCenfo\\ProyectoCenfotec\\ProyectoCenfotec\\ProyectoCenfotec.csproj": {
+              "projectPath": "C:\\GitHub\\ProyectoCenfo\\ProyectoCenfotec\\ProyectoCenfotec\\ProyectoCenfotec.csproj"
             }
           }
         }

@@ -15,7 +15,7 @@ namespace ProyectoCenfotec.Service
         /// <returns></returns>
         public async Task<WikiaModel.WikiaResultSet> Read(string name = "")
         {
-            return await Get<WikiaModel.WikiaResultSet>($"ByString?string={name}&limit=25&batch=1&includeDomain=true");
+            return await Get<WikiaModel.WikiaResultSet>($"ByString?expand=1&string={name}&limit=25&batch=1&includeDomain=true");
         }
 
         /// <summary>
@@ -38,7 +38,7 @@ namespace ProyectoCenfotec.Service
             return await GetByHub<WikiTops.UnexpandedWikiaResultSet>($"List?hub={hub}&limit=25&batch=1");
         }
 
-        public async Task<WikiUsuarios.UserResultSet> GetDetailsUser(string userid = "")
+        public async Task<WikiUsuarios.UserResultSet> GetDetailsUser(int userid = 0)
         {
             return await GetDetailsUser<WikiUsuarios.UserResultSet>($"Details?ids={userid}");
         }

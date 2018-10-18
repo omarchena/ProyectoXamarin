@@ -5,8 +5,32 @@
              x:Name="Root">
   <!--Pages can be added as references or inline-->
     <ContentPage Title="Detalles wiki" Icon="detailsicon.png">
-        <WebView x:Name="Browser" WidthRequest="1000" HeightRequest="1000" />
-        
+        <StackLayout>
+            <Grid VerticalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <!-- *, Auto, XX -->
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <!--<Label Text="{Binding user_id}"  Grid.Row="0" Grid.Column="0" />
+                <Label Text="{Binding title}" Grid.Row="0" Grid.Column="1" />
+                <Label Text="{Binding url}" Grid.Row="1" Grid.Column="0" />-->
+                <Label Text="User id" BackgroundColor="Black" FontSize="Medium" TextColor="White" Grid.Row="0" Grid.Column="0" />
+                <Label Text="Nombre" BackgroundColor="Black" FontSize="Medium"  TextColor="White" Grid.Row="0" Grid.Column="1" />
+                <Label Text="Url usuario" BackgroundColor="Black" FontSize="Medium"  TextColor="White" Grid.Row="0" Grid.Column="2" />
+
+                <Label x:Name="user_id"  Grid.Row="1" Grid.Column="0" />
+                <Label x:Name="name" Grid.Row="1" Grid.Column="1" />
+                <Label x:Name="url" Grid.Row="1" Grid.Column="2" />
+            </Grid>
+            <Image x:Name="Imagen" />
+            
+        </StackLayout>
     </ContentPage>
     
     <ContentPage Title="Información relacionada" Icon="iconsfind.png">
