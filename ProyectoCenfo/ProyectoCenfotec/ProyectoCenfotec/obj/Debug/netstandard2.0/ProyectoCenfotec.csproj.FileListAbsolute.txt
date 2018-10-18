@@ -1,0 +1,14 @@
+C:\Users\Usuario\source\repos\ProyectoCenfotec\ProyectoCenfotec\ProyectoCenfotec\obj\Debug\netstandard2.0\ProyectoCenfotec.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\ProyectoCenfotec\ProyectoCenfotec\ProyectoCenfotec\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Usuario\source\repos\ProyectoCenfotec\ProyectoCenfotec\ProyectoCenfotec\obj\Debug\netstandard2.0\DetallePage.xaml.g.cs
+C:\Users\Usuario\source\repos\ProyectoCenfotec\ProyectoCenfotec\ProyectoCenfotec\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Usuario\source\repos\ProyectoCenfotec\ProyectoCenfotec\ProyectoCenfotec\obj\Debug\netstandard2.0\ProyectoCenfotec.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ProyectoCenfotec\ProyectoCenfotec\ProyectoCenfotec\obj\Debug\netstandard2.0\ProyectoCenfotec.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\ProyectoCenfotec\ProyectoCenfotec\ProyectoCenfotec\obj\Debug\netstandard2.0\ProyectoCenfotec.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\ProyectoCenfotec\ProyectoCenfotec\ProyectoCenfotec\bin\Debug\netstandard2.0\ProyectoCenfotec.deps.json
+C:\Users\Usuario\source\repos\ProyectoCenfotec\ProyectoCenfotec\ProyectoCenfotec\bin\Debug\netstandard2.0\ProyectoCenfotec.dll
+C:\Users\Usuario\source\repos\ProyectoCenfotec\ProyectoCenfotec\ProyectoCenfotec\bin\Debug\netstandard2.0\ProyectoCenfotec.pdb
+C:\Users\Usuario\source\repos\ProyectoCenfotec\ProyectoCenfotec\ProyectoCenfotec\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Usuario\source\repos\ProyectoCenfotec\ProyectoCenfotec\ProyectoCenfotec\obj\Debug\netstandard2.0\ProyectoCenfotec.dll
+C:\Users\Usuario\source\repos\ProyectoCenfotec\ProyectoCenfotec\ProyectoCenfotec\obj\Debug\netstandard2.0\ProyectoCenfotec.pdb
+C:\Users\Usuario\source\repos\ProyectoCenfotec\ProyectoCenfotec\ProyectoCenfotec\obj\Debug\netstandard2.0\DetallesTapPage.xaml.g.cs

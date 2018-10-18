@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoCenfotec.DetallesTapPage"
+             x:Name="Root">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Detalles wiki" Icon="detailsicon.png">
+        <WebView x:Name="Browser" WidthRequest="1000" HeightRequest="1000" />
+        
+    </ContentPage>
+    
+    <ContentPage Title="Información relacionada" Icon="iconsfind.png">
+        <StackLayout>
+            <ScrollView  VerticalOptions="FillAndExpand">
+                <ListView BindingContext="{Binding Source={x:Reference Root} }"
+                      ItemsSource="{Binding Path=ItemsRelacionados}"
+                      IsRefreshing="{Binding IsBusy}">
+
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <StackLayout Grid.Column="1">
+                                        <Label Text="{Binding name}"/>
+                                        <Label Text="{Binding domain}"/>
+                                    </StackLayout>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+
+            </ScrollView>
+
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>

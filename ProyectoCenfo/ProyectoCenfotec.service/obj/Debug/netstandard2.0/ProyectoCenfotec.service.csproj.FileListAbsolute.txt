@@ -1,0 +1,6 @@
+C:\Users\Usuario\source\repos\ProyectoCenfotec\ProyectoCenfotec.service\bin\Debug\netstandard2.0\ProyectoCenfotec.service.deps.json
+C:\Users\Usuario\source\repos\ProyectoCenfotec\ProyectoCenfotec.service\bin\Debug\netstandard2.0\ProyectoCenfotec.service.dll
+C:\Users\Usuario\source\repos\ProyectoCenfotec\ProyectoCenfotec.service\obj\Debug\netstandard2.0\ProyectoCenfotec.service.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\ProyectoCenfotec\ProyectoCenfotec.service\obj\Debug\netstandard2.0\ProyectoCenfotec.service.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ProyectoCenfotec\ProyectoCenfotec.service\obj\Debug\netstandard2.0\ProyectoCenfotec.service.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\ProyectoCenfotec\ProyectoCenfotec.service\obj\Debug\netstandard2.0\ProyectoCenfotec.service.AssemblyInfo.cs

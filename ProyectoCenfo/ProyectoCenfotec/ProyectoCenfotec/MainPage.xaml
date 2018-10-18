@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ProyectoCenfotec"
+             x:Class="ProyectoCenfotec.MainPage"
+             x:Name="Root">
+
+    <StackLayout>
+        <SearchBar x:Name="SearchBar" Placeholder="Buscar..." SearchCommand="{Binding sbBuscar}" 
+                    Text="{Binding TextoBuscar}" BindingContext="{Binding Source={x:Reference Root} }" />
+
+        <ScrollView  VerticalOptions="FillAndExpand">
+            <ListView BindingContext="{Binding Source={x:Reference Root} }"
+                      ItemsSource="{Binding Path=Items}"
+                      IsRefreshing="{Binding IsBusy}"
+                      SelectedItem="{Binding seleccionar}" SelectionMode="None" >
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackLayout Grid.Column="1">
+                                    <Label Text="{Binding name}" TextColor="Black"/>
+                                    <Label Text="{Binding domain}"/>
+                                </StackLayout>
+                            </Grid>
+                            <ViewCell.ContextActions>
+                                <MenuItem Clicked="verMas" CommandParameter="{Binding .}"
+                                    Text="ver más" />
+                            </ViewCell.ContextActions>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+        </ScrollView>
+    </StackLayout>
+
+</ContentPage>

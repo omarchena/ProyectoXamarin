@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoCenfotec.DetallePage"
+             xmlns:local="clr-namespaces:ProyectoCenfotec"
+             Title="Detalles">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView  VerticalOptions="FillAndExpand">
+                <Grid VerticalOptions="FillAndExpand">
+                    <Grid.RowDefinitions>
+                        <!-- *, Auto, XX -->
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Label Text="{Binding name}"  Grid.Row="0" Grid.Column="0" />
+                    <Label Text="{Binding hub}" Grid.Row="0" Grid.Column="1" />
+                    <Label Text="{Binding lan}" Grid.Row="1" Grid.Column="0" />
+                    <Label Text="{Binding domain}" Grid.Row="1" Grid.Column="1" />
+                    <!--<Button x:Name="ControlCamara" Text="Camara" Grid.Row="0" Grid.Column="0" />
+                    <Button x:Name="ControlMapas" Text="Mapas" Grid.Row="0" Grid.Column="1" />
+                    <Button Text="boton 3" Grid.Row="1" Grid.Column="0" />
+                    <Button Text="boton 4" Grid.Row="1" Grid.Column="1" />-->
+                </Grid>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
